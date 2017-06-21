@@ -1,1 +1,1 @@
-# chat
+multi-user command line chat
