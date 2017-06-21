@@ -70,7 +70,7 @@ def broadcast(server_socket, sock, message):
             except:
                 # broken socket connection
                 socket.close()
-                # broken socket, remove it
+                # broken socket
                 if socket in SOCKET_LIST:
                     SOCKET_LIST.remove(socket)
 

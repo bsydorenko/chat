@@ -43,7 +43,7 @@ def chat_client():
                     sys.stdout.flush()
 
             else:
-                # user entered a message
+                # user entered message
                 msg = sys.stdin.readline()
                 s.send(msg)
                 sys.stdout.write('[You] ');
